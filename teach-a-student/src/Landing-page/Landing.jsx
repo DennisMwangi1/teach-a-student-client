@@ -136,9 +136,27 @@ function Landing() {
 
                     </div>
                 </section>
-                <section className='h-80  mt-10'>
-                    <div>
-                        <h1>Welcome to Teach a Student agency</h1>
+                <section className='mt-20 grid grid-cols-2 m-auto'>
+                    <div className=''>
+                        <h1 className='text-center text-3xl font-bold'>Welcome to Teach a Student agency</h1>
+                        <p className='text-start px-16 mt-8  '>We are to enlighten your future never stop learning even when you have no one to tutor you.You can find our tutors from here and you can pick a tutor that meets your needs.
+                         <span className='flex mt-2 cursor-pointer hover:text-amber-500 font-semibold'>Read more
+                            <span className=' place-items-center'>
+                             <lord-icon
+                        
+                            src="https://cdn.lordicon.com/zmkotitn.json"
+                            trigger="hover"
+                            colors="primary:#e88c30"
+                            state="hover-1"
+                            
+                            style={{'width':'30px', 'height':'30px'}}
+                            >
+                        </lord-icon>
+                        </span>
+                        </span>
+                        </p>
+                       
+                       
                     </div>
                     <iframe className="border-r-4 border-t-4 border-amber-500 rounded-sm" width="500" height="250" src="https://www.youtube.com/embed/lQJSWH2S-BU" title="WIZ KID | 2 Hours of Chill Songs | Afrobeats/R&B MUSIC PLAYLIST | Starboy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
